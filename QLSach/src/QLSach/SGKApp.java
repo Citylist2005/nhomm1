@@ -9,7 +9,7 @@ class Book {
     protected String nhaXB;
 
     public void input(Scanner sc) {
-        sc.nextLine(); // Clear buffer
+        sc.nextLine(); 
         System.out.print("Nhập mã sách: ");
         maSach = sc.nextLine();
         System.out.print("Nhập đơn giá: ");
